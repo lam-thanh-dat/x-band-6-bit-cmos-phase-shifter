@@ -1,0 +1,7 @@
+# Cadence library definition for the student-created project source.
+# Launch Virtuoso from this directory or adjust the relative path as needed.
+DEFINE phase_shift ./phase_shift
+
+# Add the separately licensed TSMC 180 nm PDK through your site's standard
+# cds.lib or Library Path Editor configuration. The design expects a technology
+# library named "tsmc18". Do not commit the licensed PDK to this repository.

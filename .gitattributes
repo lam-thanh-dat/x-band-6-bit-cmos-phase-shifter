@@ -1,0 +1,21 @@
+* text=auto eol=lf
+
+*.oa binary
+*.dm binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+
+# Preserve native Cadence library exports and identifiers byte-for-byte.
+cadence/phase_shift/data_*.csv -text
+cadence/phase_shift/cdsinfo.tag -text
+cadence/phase_shift/.oalib -text
+cadence/phase_shift/**/master.tag -text
+cadence/phase_shift/**/prop.cfg -text
+
+# Preserve native Cadence export bytes, including their original line endings.
+data/raw/cadence-exports/*.csv -text
+
+# Preserve the bundled third-party class file exactly as distributed.
+docs/IEEEtran.cls -text

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cadence session and simulation output
+*.cdslck
+*.log
+*.log.*
+*.history
+*.psf
+psf/
+simulation/
+simResults/
+waves/
+.cadence/
+.finesim*/
+
+# Proprietary technology content must remain local
+tsmc18/
+models/
+Calibre/
+*.drc
+*.lvs
+*.rcx
+
+# Local package artifacts
+*.zip
+dist/
+build/
+
+# LaTeX build artifacts (compiled PDF files remain tracked)
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
